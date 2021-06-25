@@ -1,14 +1,14 @@
 = C++ example project scanned on SonarCloud using GitLab CI
 // URIs:
-:uri-qg-status: https://sonarcloud.io/dashboard?id=sc-sq-c-family-examples_linux-cmake-gitlab-ci-sc
-:img-qg-status: https://sonarcloud.io/api/project_badges/measure?project=sc-sq-c-family-examples_linux-cmake-gitlab-ci-sc&metric=alert_status
+:uri-qg-status: https://sonarcloud.io/dashboard?id=sonarsource-cfamily-examples_linux-cmake-gitlab-ci-sc
+:img-qg-status: https://sonarcloud.io/api/project_badges/measure?project=sonarsource-cfamily-examples_linux-cmake-gitlab-ci-sc&metric=alert_status
 :uri-build-status: https://gitlab.com/tomasz.kaminski/linux-cmake-gitlab-ci-sc/-/commits/main
 :img-build-status: https://gitlab.com/tomasz.kaminski/linux-cmake-gitlab-ci-sc/badges/main/pipeline.svg
 
 image:{img-build-status}[Build Status, link={uri-build-status}]
 image:{img-qg-status}[Quality Gate Status,link={uri-qg-status}]
 
-*This project is analysed on https://sonarcloud.io/dashboard?id=sc-sq-c-family-examples_linux-cmake-gitlab-ci-sc[SonarCloud]!*
+*This project is analysed on https://sonarcloud.io/dashboard?id=sonarsource-cfamily-examples_linux-cmake-gitlab-ci-sc[SonarCloud]!*
 
 It is very easy to analyze a C/C++/Objective-C project with SonarCloud https://sonarcloud.io/documentation/getting-started/gitlab/[on GitLab CI]:
 
