@@ -2,7 +2,7 @@
 // URIs:
 :uri-qg-status: https://sonarcloud.io/dashboard?id=sonarsource-cfamily-examples_linux-cmake-gitlab-ci-sc
 :img-qg-status: https://sonarcloud.io/api/project_badges/measure?project=sonarsource-cfamily-examples_linux-cmake-gitlab-ci-sc&metric=alert_status
-:uri-build-status: https://gitlab.com/tomasz.kaminski/linux-cmake-gitlab-ci-sc/-/commits/main
+:uri-build-status: https://gitlab.com/tomasz.kaminski/linux-cmake-gitlab-ci-sc/-/pipelines
 :img-build-status: https://gitlab.com/tomasz.kaminski/linux-cmake-gitlab-ci-sc/badges/main/pipeline.svg
 
 image:{img-build-status}[Build Status, link={uri-build-status}]
