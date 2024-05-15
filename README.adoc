@@ -26,7 +26,7 @@ It is very easy to analyze a C, C++ and Objective-C project with SonarCloud http
 ... Push Sonar Scanner and build Wrapper output directory to the cache
 .. As part of the `.post` stage:
 ... Pull build wrapper output and Sonar Scanner from cache
-... Run `sonar-scanner` on build wrapper output
+... Run `sonar-scanner` on the `compile_commands.json` file inside of the build wrapper output directory
 . Make sure that you have your token stored as a CI variable in your project (`SONAR_TOKEN`). You can request new tokens using https://sonarcloud.io/account/security/[Account/Security page].
 
 
